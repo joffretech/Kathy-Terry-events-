@@ -95,8 +95,7 @@ public/build/
 .docusaurus
 
 # Gatsby cache and build output
-.cache/
-public
+# public # Removed this line as it conflicts with Vite's public directory
 
 # SvelteKit build output
 .svelte-kit
