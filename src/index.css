@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any global custom styles here */
+body {
+    @apply bg-white text-black dark:bg-black dark:text-white transition-colors duration-300;
+    /* Basic dark/light mode background/text - will be refined */
+}
